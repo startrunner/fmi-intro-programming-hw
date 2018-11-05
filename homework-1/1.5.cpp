@@ -11,7 +11,9 @@ int main()
     {
         int digitSum = 0;
         int iCopy = i;
-        do{
+
+        do
+        {
             digitSum+=iCopy%10;
             iCopy/=10;
         }while(iCopy!=0);

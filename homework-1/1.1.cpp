@@ -14,7 +14,7 @@ int main()
 
     double value = top/bottom;
 
-    printf("value is: %.3f\n", value);
+    printf("value is: %f\n", value);
 
     return 0;
 }
