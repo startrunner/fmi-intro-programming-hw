@@ -8,7 +8,6 @@ int main()
     double x;
     cin>>x;
 
-
     double top = 11*x*x + 3*x + 15;
     double bottom = x*x*x - 25;
 

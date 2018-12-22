@@ -7,10 +7,10 @@ int digits[64];
 constexpr int power(int x, int p)
 {
     return
-    (p==0)?1:
-    (p==1)?x:
-    (p==2)?x*x:
-    power(power(x, p/2), 2) * power(x, p%2);
+        (p==0)?1:
+        (p==1)?x:
+        (p==2)?x*x:
+        power(power(x, p/2), 2) * power(x, p%2);
 }
 
 bool check(int x)
@@ -42,10 +42,7 @@ int main()
 
     for(int i=a;i<=b;i++)
     {
-        if(check(i))
-        {
-            printf("%d ", i);
-        }
+        if(check(i))printf("%d ", i);
     }
 
     printf("\n");
